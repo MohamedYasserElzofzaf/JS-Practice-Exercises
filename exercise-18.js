@@ -7,9 +7,12 @@
  * stu,vwx,yza
  */
 
-const parseCSV = (csvString) => csvString.split('\n').map(raw => raw.split(','));
+const parseCSV = (csvString) =>
+    csvString.split("\n").map((raw) => raw.split(","));
 
-const srt = 'abc,def,ghi 
+const srt;
+/** = 'abc,def,ghi 
 jkl, mno, pqr
-stu, vwx, yza ';
-console.log(parseCSV(srt);
+stu, vwx, yza '*/
+
+console.log(parseCSV(srt));
